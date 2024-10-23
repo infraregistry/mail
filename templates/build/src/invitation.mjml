@@ -1,0 +1,24 @@
+<mjml>
+  <mj-include path="partials/header.mjml" />
+  <mj-body background-color="#111" width="600px">
+    <mj-include path="partials/logo.mjml" />
+    <mj-section full-width="full-width" background-color="#e1e1e1" padding-left="15px" padding-right="15px">
+      <mj-column width="100%">
+        <mj-text color="#8338F4" font-weight="bold" font-size="20px">
+          Welcome to nvr.ai!
+        </mj-text>
+        <mj-text color="#666" font-size="16px">
+          To accept this invitation by clicking the button below:
+        </mj-text>
+        <mj-button background-color="#8338F4" align="center" color="#ffffff" font-size="20px" font-weight="bold" href="{{ .link }}" width="200px">
+          Accept Invite
+        </mj-button>
+        <mj-text color="#999" font-size="12px">
+          You've received this email because you signed up for nvr.ai. If you didn't sign up, please ignore this email
+          or contact us at <a href="mailto:suppor@nvr.ai">suppor@nvr.ai</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="partials/footer.mjml" />
+  </mj-body>
+</mjml>

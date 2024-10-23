@@ -1,0 +1,10 @@
+ <mj-section padding="10px">
+   <mj-column width="100%">
+     <mj-image href="https://nvr.ai" src="https://assets.nvr.ai/brand-badge.png" alt="" align="center" width="200px" />
+   </mj-column>
+   <mj-column width="100%">
+     <mj-text align="center" font-size="22px" font-weight="bold" color="#fff" line-height="26px">
+       The <span style="font-style: italic; color: #D507FF">only</span> real-time <br>
+       <span style="color: #7537D2">surveillance</span> camera platform.
+     </mj-text>
+ </mj-section>
