@@ -15,6 +15,7 @@ func TestSend(t *testing.T) {
 		To: []string{"m@matthewdavis.io"},
 	}, "Welcome to infraregistry.com! (test)", map[string]string{
 		"link": "https://infraregistry.com",
+		"code": "123456",
 	})
 
 	if err != nil {
