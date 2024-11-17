@@ -5,9 +5,8 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/infraregistry/mail/templates"
 	"github.com/resend/resend-go/v2"
-
-	"github.com/nvr-ai/go-mail/templates"
 )
 
 type Recipients struct {
